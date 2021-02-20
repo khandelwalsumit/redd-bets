@@ -1,0 +1,4 @@
+server : '159.65.72.135'
+database : 'essalmub_stockRedd'
+username  : 'essalmub_dba'
+password  : 'sql_2021'
