@@ -1,0 +1,118 @@
+body {
+    background: #ecf0f1 !important;
+}
+
+.searchDiv input[type=text],
+.searchDiv input[type=password] {
+    background-color: #f6f6f6;
+    border: none;
+    color: #0d0d0d;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 5px;
+    width: 85%;
+    border: 2px solid #f6f6f6;
+    -webkit-border-radius: 5px 5px 5px 5px;
+    border-radius: 5px 5px 5px 5px;
+}
+
+.searchDiv button[type=submit] {
+    background-color: #008080;
+    border: none;
+    color: white;
+    padding: 15px 80px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    text-transform: uppercase;
+    font-size: 13px;
+    -webkit-box-shadow: 0 10px 30px 0 rgb(95 186 233 / 40%);
+    box-shadow: 0 10px 30px 0 rgb(95 186 233 / 40%);
+    -webkit-border-radius: 5px 5px 5px 5px;
+    border-radius: 5px 5px 5px 5px;
+    margin: 5px 20px 40px 20px;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -ms-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+}
+
+.searchDiv button[type=submit]:hover {
+    background-color: #007070;
+}
+
+.container {
+    text-align: -webkit-center !important;
+    text-align: center;
+}
+
+.userIcon {
+    background-color: cadetblue;
+    padding: 15px;
+    margin-top: -39px;
+    border-radius: 100px;
+    width: 78px;
+    align-self: center;
+    position: absolute;
+}
+
+.searchDiv {
+    margin-top: 100px;
+    padding: 30px;
+    width: 90%;
+    max-width: 450px;
+    position: relative;
+    padding: 0px;
+}
+
+.searchDiv .card {
+    -webkit-box-shadow: 0 30px 60px 0 rgba(0, 0, 0, 0.3);
+    box-shadow: 0 30px 60px 0 rgba(0, 0, 0, 0.3);
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+}
+
+.searchDiv .card-body {
+    font: caption;
+}
+
+.searchDiv #title {
+    margin: 20px 0px 40px 0px;
+    font-size: x-large;
+}
+
+
+/*
+.searchDiv .card-body {
+    padding-top: 75px;
+}
+*/
+
+.searchDiv #formFooter {
+    background-color: #f6f6f6;
+    border-top: 1px solid #dce8f1;
+    padding: 25px;
+    text-align: center;
+    -webkit-border-radius: 0 0 10px 10px;
+    border-radius: 0 0 10px 10px;
+}
+
+.searchDiv .alert {
+    margin-top: 30px;
+}
+
+.mainDiv {
+    -webkit-box-shadow: 0 30px 60px 0 rgb(0 0 0 / 30%);
+    box-shadow: 0 30px 60px 0 rgb(0 0 0 / 30%);
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    padding: 25px;
+}
+
+.mainTable .dataTable {
+    margin-top: 30px;
+}
